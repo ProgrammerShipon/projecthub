@@ -19,6 +19,8 @@ const { Header, Content, Footer, Sider } = Layout;
 import logo from "@/Assets/logo.png";
 import Image from "next/image";
 import TopHeader from "@/Components/TopHeader/TopHeader";
+import TaskContainer from "@/Components/TaskProject/Task/TaskContainer";
+import ProjectBrief from "@/Components/TaskProject/ProjectBrief/ProjectBrief";
 
 // nav items
 const items = [
@@ -105,20 +107,28 @@ export default function Home() {
         <TopHeader />
 
         {/* Main Content */}
-        <Content
-          style={{
-            margin: "24px 16px 0",
-          }}
-        >
+        <Content>
+          <div
+            style={{
+              padding: 24,
+              background: colorBgContainer,
+              borderRadius: borderRadiusLG,
+              margin: "24px 16px 0",
+            }}
+          >
+            <ProjectBrief />
+          </div>
+
           <div
             style={{
               padding: 24,
               minHeight: 360,
               background: colorBgContainer,
               borderRadius: borderRadiusLG,
+              margin: "24px 16px 0",
             }}
           >
-            content
+            <TaskContainer />
           </div>
         </Content>
 

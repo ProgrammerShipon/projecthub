@@ -1,8 +1,8 @@
 import { SearchOutlined, BellOutlined, PlusOutlined } from "@ant-design/icons";
 import { Input, theme } from "antd";
-import Image from "next/image";
 const { useToken } = theme;
 
+import Image from "next/image";
 import maleAvatar from "@/Assets/avatar/male.png";
 import femaleAvatar from "@/Assets/avatar/female.jpg";
 
