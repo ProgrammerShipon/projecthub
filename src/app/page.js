@@ -127,6 +127,7 @@ export default function Home() {
               borderRadius: borderRadiusLG,
               margin: "24px 16px 0",
             }}
+            className="overflow-x-scroll max-w-full"
           >
             <TaskContainer />
           </div>
