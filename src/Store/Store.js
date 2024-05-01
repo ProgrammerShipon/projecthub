@@ -60,6 +60,13 @@ const initialTasks = [
 export const useZustandStore = create(
   devtools((set) => ({
     tasks: [...initialTasks],
+    authentication: { isLogin: false, user: null },
+
+    getSignUp: (isLogin, user) => {
+      set(() => ({
+        authentication: { isLogin: isLogin, user: user },
+      }));
+    },
 
     addTask: (task) => {
       // generate uniq id

@@ -12,9 +12,9 @@ export default function TaskColumn({
   onDrop,
 }) {
   return (
-    <div className="min-w-72 p-4 rounded-md shadow-md bg-gray-100">
+    <div className="min-w-72 p-4 rounded-md shadow-md bg-[#ededed]">
       {/* title bar */}
-      <div className="flex items-center justify-between mb-4">
+      <div className="flex items-center justify-between">
         <h3 className="text-lg font-semibold">{title}</h3>
 
         {/* Column option button */}

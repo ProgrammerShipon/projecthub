@@ -5,7 +5,7 @@ export default function TaskCard({ task = {}, idx, setActiveCard }) {
 
   return (
     <article
-      className="bg-white p-3 rounded-md shadow-md mb-4 cursor-grab active:opacity-60 transition duration-300 ease-in-out"
+      className="bg-white p-3 rounded-md shadow-md cursor-grab active:opacity-60 transition duration-300 ease-in-out"
       draggable
       onDragStart={() => setActiveCard(idx)}
       onDragEnd={() => setActiveCard(null)}
