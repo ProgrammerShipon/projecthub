@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ProjectHub
+
+## Overview
+
+ProjectHub is a web application aimed at providing a platform for project management and collaboration. It offers a user-friendly interface for teams to organize, track, and communicate about their projects effectively.
+
+## Features
+
+- **Project Management**: Create, edit, and delete projects with ease.
+- **Task Tracking**: Break down projects into tasks and monitor their progress.
+- **Collaboration**: Invite team members to projects and assign tasks to specific individuals.
+- **Real-time Updates**: Stay informed about project changes with real-time notifications.
+- **File Sharing**: Share documents and files related to projects securely within the platform.
+- **Customization**: Customize project boards and task lists to suit your team's workflow.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building server-side rendered web applications.
+- **Ant Design**: A design system with React components for building elegant and responsive user interfaces.
+- **Zustand**: A minimalist state management library for React.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/yourusername/projecthub.git`
+2. Navigate to the project directory: `cd projecthub`
+3. Install dependencies: `npm install` or `yarn`
 
 ## Getting Started
 
-First, run the development server:
+1. Run the development server: `npm run dev` or `yarn dev`
+2. Open your browser and navigate to `http://localhost:3000`
+<br>
+or 
+<br>
+check Link Link: [ProjectHum](https://projecthub.developershipon.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Contributing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+We welcome contributions from the community! If you have any ideas for improvements or new features, please open an issue create or submit a pull request.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

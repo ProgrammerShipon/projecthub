@@ -19,6 +19,8 @@ export default function ProjectBrief() {
               className="w-full h-full rounded-full"
               src={projectLogo}
               alt="project logo"
+              height={100}
+              width={100}
             />
           </figure>
         </div>
